@@ -1,0 +1,102 @@
+.download-Section {
+    background: #fff;
+
+    .download-sms{
+        text-align: right;
+        height: 344px;
+
+        .parent-enter-number{
+            padding: 0 64px 63px;
+        }
+        
+        .txt-head-enter-number{
+            font-size: 32pt;
+            color: rgb(60, 60, 60);
+        }
+        
+        .txt-enter-number p{
+            font-size: 18pt;
+            color: rgb(60, 60, 60);
+        }
+
+        .input-form-enter-number {
+            width: 489px;  
+            border-radius: 47px;
+            height: 50px;
+            position: relative;
+        }
+        
+        .input-form-enter-btn {
+            background: #ff6f61;
+            border-color: #ff6f61;
+            color: #fff;
+            border-radius: 33px;
+            margin-right: 4px;
+            width: 129px;
+            transition: .3s all ease-in;
+            &:hover{
+                box-shadow: 0 3px 4px #aaa;
+            }
+        }
+    }
+
+    .download-market{
+        height: 258pt;
+        background: #2E2E36;
+        .phone-img {
+            position: relative;
+            img {
+                position: absolute;
+                left: 102pt;
+                bottom: 33pt;
+            }
+        }
+
+        .download-box{
+            padding-top: 80px;
+        }
+
+        .ios-info img, .android-info img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .ios-info .download-ios, .android-info .download-android {
+            font-size: 20pt;
+            color: #fff;
+        }
+
+        .ios-info .btn, .android-info .btn {
+            font-size: 16pt;
+            color: #fff;
+            display: block;
+            width: 228px;
+            background: rgb(50, 50, 57);
+            margin: 20px auto;
+            border-radius: 48px;
+            border: 1px solid #fff;
+            img {
+                width: 24px;
+                height: 30px;
+                margin-left: 9px;  
+            }
+        }
+
+    }
+
+    .error-message{
+        color: red;
+        margin-top: 10px;
+        &::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: red;
+            display: inline-block;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-left: 11px;
+        }
+    }
+}
+

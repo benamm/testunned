@@ -1,0 +1,240 @@
+header {
+    .user-welcome-content{
+        color: #fff;
+        line-height: 82px;
+
+        span {
+            width: 100px;
+            height: 100px;
+            /* background: red; */
+            font-size: 26pt;
+            position: relative;
+            top: 11px;
+            left: 12px;
+        }
+    }
+    
+    box-shadow: 0px 5pt 12px rgba(0, 0, 0, 0.3);
+    background: rgb(50, 50, 57);
+    height: 69pt;
+
+    .sign-up,
+    .sign-in {
+        background: transparent;
+        color: rgb(255, 111, 97);
+        border: 1px solid rgb(255, 111, 97);
+        border-radius: 22pt;
+        font-weight: 300;
+        font-size: 16pt;
+        width: 110pt;
+        height: 45pt;
+        line-height: 47px;
+
+        &:hover,
+        &:focus {
+            background: rgb(255, 111, 97);
+            color: #fff;
+            outline: none;
+            box-shadow: none !important;
+        }
+    }
+
+    .sign-up {
+        position: relative;
+        left: -13px;
+    }
+
+    .sign-in {
+        background: transparent;
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .go-map-page {
+        margin-top: 10px;
+        background: transparent;
+        color: #e6e6e6;
+        font-weight: 100;
+        font-size: 16pt;
+        height: 45pt;
+        border: 1px solid #6e6e6e;
+        border-radius: 41px;
+        line-height: 48px;
+        position: relative;
+        -webkit-transition: .3s all ease;
+        transition: .3s all ease;
+        -webkit-transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+        transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+
+        &:hover,
+        &:focus {
+            border-color: #fff;
+            color: #fff;
+            box-shadow: none;
+        }
+
+        img {
+            margin: 0 7px;
+            margin-top: -18px;
+            width: 56px;
+        }
+    }
+
+    .header-logo {
+        margin-top: 10px;
+    }
+
+    .register-form{
+        position: relative;
+        height: 61px;
+        display: block;        
+        margin-top: 10px;
+    }
+    
+    .list-icon-supertips-box{
+        width: 25px;
+        height: 26px;
+        margin: 0 5px;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        top: 5px;
+        position: relative;
+        color: #333;
+    }
+    
+    .list-title-supertips-box{
+        color: #333;
+        width: 200px;
+        height: 100px;
+        margin: 0 9px;
+        font-size: 13px;
+    }
+
+    .supertips-box{
+        width: 200px;    
+
+        list-style: none;
+
+        display: block;
+        opacity: 1!important;
+        transition: all 75ms;
+
+        .user-menu-item {
+            color: #555;
+            cursor: pointer;
+            display: block;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 17.5px;
+            margin-top: 5px;
+            padding: 0 10px;
+            text-align: right;
+            text-decoration: none;
+            transition: background-color .5s;            
+        }
+    }
+
+    .register-form,
+    .login-form {
+        position: relative;
+
+        .popover {
+            width: 233px;
+            -webkit-transform: 0;
+            top: 76px;
+            right: 0;
+            transform: 0;
+            max-width: unset;
+        
+            .arrow {
+                top: calc((.5rem + 1px) * -1);
+                right: 45px;
+            }
+
+            .popover-body {
+                position: relative;
+            }
+
+            .btn {
+                position: relative;    
+            }
+        }
+    }
+
+    
+}
+
+
+/**
+* RESPONSEIVE FOR DEVICE < 768
+*/
+
+@media (max-width: 947px) {
+
+    header {
+        .go-map-page {
+            border: unset;
+
+            img {
+                width: 45px;
+                margin-top: 0;
+                border-radius: 50%;
+                animation: pulse 2s infinite;
+            }
+        }
+
+        .auth-icon-in-header{
+            width: 45px;
+            margin-top: 18px;
+        }
+
+        .header-logo {
+            width: 45px;
+            margin-top: 18px;
+        }
+    }
+}
+
+
+
+/**
+* RESPONSEIVE FOR DEVICE < 635
+*/
+
+@media (max-width: 635px) {
+    header {
+        height: auto;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #fff;
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #fff;
+        box-shadow: 0 0 0 0 #fff;
+    }
+
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}

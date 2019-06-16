@@ -1,0 +1,35 @@
+.how-use-uneed-contet{
+    padding: 60px 0;
+    .how-use-uneed{
+        font-size: 28pt;
+    }
+    
+    .uneed-refrence {
+        padding-top: 60px;
+        >div {
+            font-size: 16pt;
+            font-weight: 500;
+            color: #323239;
+        }  img {
+            margin-bottom: 50px;
+            min-width: 100px;
+        }
+        
+        .around-png{
+            min-width: 154px;
+        }
+
+        .uneed-refrence-items {
+            h6{
+                font-size: 16pt;
+                font-weight: 400;
+                color: rgb(50, 50, 57);
+            }
+            
+            p{
+                font-size: 14pt;
+                color: rgb(50, 50, 57);
+            }
+        }
+    }
+}

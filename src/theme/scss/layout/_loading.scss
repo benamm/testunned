@@ -1,0 +1,15 @@
+@import "../module/module";
+
+.first-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    img{
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+    }
+}

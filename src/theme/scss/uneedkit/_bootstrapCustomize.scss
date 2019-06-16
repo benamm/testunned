@@ -1,0 +1,69 @@
+@import "../module/module";
+
+body {
+    direction  : rtl;
+    text-align : right;
+}
+
+a {
+    text-decoration : underline;
+}
+
+// used in ' product > warranty ' component
+.custom-checkbox.yellow {
+    padding-left  : auto;
+    padding-right : 1.5rem;
+    .custom-control-label::before,
+    .custom-control-label::after {
+        right : 0;
+    }
+    .custom-control-input:checked ~ .custom-control-label::before {
+        background-color : $color-orange-2;
+    }
+    .custom-control-input:active ~ .custom-control-label::before {
+
+    }
+}
+
+.form-control:focus,
+.btn:focus,
+.btn.focus,
+.custom-control-input:focus ~ .custom-control-label::before {
+    border-color : $color-orange-2 !important;
+    box-shadow   : 0 0 0 0.3rem rgba(253, 183, 0, 0.2) !important;
+}
+
+.dropdown .btn {
+    color            : $color-blue-1;
+    background-color : #fff;
+    border           : 1px solid #ced4da;
+
+    &.btn-block {
+        width : 100%;
+    }
+}
+
+.dropdown-toggle::after {
+    margin-left  : 0;
+    margin-right : 0.255em;
+}
+
+// change color of dropdown <a> item. used in Product>Sidebar>Options componenent
+.dropdown-item {
+    &:hover, &:focus {
+        background-color : rgba(253, 183, 0, 0.2);
+    }
+    @at-root a#{&} {
+        &:focus {
+            outline-color : $color-orange-2 !important;
+        }
+
+    }
+    &.active, &:active {
+    }
+}
+
+// used in product page to limit wide wide
+.container-fluid.limited-width {
+    max-width : 1500px;
+}

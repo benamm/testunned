@@ -1,0 +1,123 @@
+.uneed-signup {
+    position: relative;
+    background: whitesmoke;
+    padding-top: 40px;
+    width: 100%;
+    min-height: calc(100vh - 69pt);    
+    
+    .uneed-signup-content{
+        height: 100%;
+    }
+
+    .MuiFormControl-root-1 {
+        width: 100%;
+        .MuiInputLabel-formControl-10 {
+            right: 0;
+            left: unset;
+        }
+    }
+
+    .card {
+        background: transparent;
+        border: none;
+    }
+
+    .card-body{
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        border: none;
+
+        padding: 0 48px;
+
+    }
+
+    div[class*="MuiFormControl-root-"] {
+        width: 100% ;
+        
+    }
+    
+    label[class*="MuiFormLabel-root-"] {
+        left: unset;
+        right: 0;
+    }
+
+    // div[class*="col-"]{
+    //     background: red!important
+    // }
+
+    .icon-profile-edit{
+        width: 100px;
+        height: 100px;
+        background: #ff6f61;
+        position: absolute;
+        top: -46px;
+        left: 0;
+        right: 0;
+        border-radius: 50%;
+        line-height: 101px;
+        font-size: 55px;
+        text-align: center;
+        color: #fff;
+        margin: auto;
+        box-shadow: 0 0 0px 5px #f5f5f5;
+    }
+
+    .card-title {
+        padding-top: 64px;
+        font-size: 20pt;
+    }
+
+    .btn-login{
+        background: #323239;
+        color: #fff !important;
+        width: 183px;
+        margin: 25px auto;
+        display: block;
+        border-radius: 34px;
+        padding: 8px;
+        height: 44pt;
+        font-size: 16pt;
+    }
+
+    .btn-login:hover {
+        background: #323239;
+        color: #fff;
+    }
+    
+
+    .MuiFormHelperText-root-89.MuiFormHelperText-error-90, .MuiFormHelperText-root-105.MuiFormHelperText-error-106,.MuiFormHelperText-root-113.MuiFormHelperText-error-114,.MuiFormHelperText-root-97.MuiFormHelperText-error-98 {
+        text-align: right;
+        margin-top: 10px;
+    }
+
+
+
+    /**
+    *   tabs 
+    */
+    .react-tabs__tab-list {
+        border-bottom: 1px solid #aaa;
+        margin: 0 0 10px;
+        padding: 0;
+        border: 1px solid rgb(220, 220, 220);
+        text-align: center;
+        border-radius: 70px;
+        height: 54pt;
+
+        .react-tabs__tab {
+            width: 49%;
+            border-radius: 64px;
+            font-size: 17.5pt;
+            height: 91%;
+            line-height: 55px;
+            margin-top: 1px;
+        }
+
+        .react-tabs__tab--selected {
+            background: rgb(255, 111, 97);
+            border: none;
+            color: #fff;
+        }
+    }
+}

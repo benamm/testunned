@@ -1,0 +1,84 @@
+.uneed-login {
+    position: absolute;
+    background: whitesmoke;
+    // padding-top: 100px;
+    height: calc(100% - 69pt);
+    width: 100%;
+    height: -o-calc(100% - 69pt); /* opera */
+    height: -webkit-calc(100% - 69pt); /* google, safari */
+    height: -moz-calc(100% - 69pt); /* firefox */
+ 
+    .uneed-login-content{
+        height: 100%;
+    }
+
+    .MuiFormControl-root-1 {
+        width: 100%;
+        .MuiInputLabel-formControl-10 {
+            right: 0;
+            left: unset;
+        }
+    }
+
+    .card {
+        border: none;
+        background: transparent;
+    }
+
+    .card-body{
+        background: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        border: none;
+        padding: 0 48px;
+    }
+
+    div[class*='MuiFormControl-marginNormal-'] {
+        width: 100% ;
+    }
+
+    .icon-profile-edit{
+        width: 100px;
+        height: 100px;
+        background: #ff6f61;
+        position: absolute;
+        top: -46px;
+        left: 0;
+        right: 0;
+        border-radius: 50%;
+        line-height: 101px;
+        font-size: 55px;
+        text-align: center;
+        color: #fff;
+        margin: auto;
+        box-shadow: 0 0 0px 5px #f5f5f5;
+    }
+
+    .card-title {
+        padding-top: 64px;
+        font-size: 20pt;
+    }
+
+    .btn-login{
+        background: #323239;
+        color: #fff !important;
+        width: 183px;
+        margin: 25px auto;
+        display: block;
+        border-radius: 34px;
+        padding: 8px;
+        height: 44pt;
+        font-size: 16pt;
+    }
+
+    .btn-login:hover {
+        background: #ff6f61;
+        color: #fff;
+    }
+    
+
+    *[class*='MuiFormHelperText-error'] {
+        text-align: right;
+        margin-top: 10px;
+    }
+}

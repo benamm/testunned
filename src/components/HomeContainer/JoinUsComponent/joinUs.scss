@@ -1,0 +1,33 @@
+.join-us-wrap {
+    padding-right: 0!important;
+    padding-left: 0!important;
+  .join-us {
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    background: url("../../../img/JOIN_US_BACK.jpg");
+    background-size: cover;
+    height: 500px;
+    .join-us-btn {
+      margin: 40px auto;
+      background: #646b69;
+      color: #fff;
+      font-size: 16pt;
+      line-height: 31pt;
+      border-radius: 51px;
+      padding: 8px 27px;
+      border: 1px solid #fff;
+    }
+
+    h4 {
+      font-size: 28pt;
+      color: #fff;
+    }
+
+    h5 {
+      font-size: 18pt;
+      font-weight: 200;
+      color: #fff;
+      margin: 50px;
+    }
+  }
+}

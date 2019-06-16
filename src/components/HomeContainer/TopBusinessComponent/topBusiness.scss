@@ -1,0 +1,125 @@
+.top-bussines {
+    background: rgb(245, 245, 245);
+    // height: 318pt;
+    overflow: hidden;
+    padding-bottom: 77px;
+    outline: none !important;
+    .top-buss-title {
+        color: rgb(50, 50, 57);
+        font-size: 20pt;
+        margin: 40px;
+        font-weight: 500;
+    }
+    
+    .card-img-top-Buss {
+        max-width: 95%;
+        max-height: 95%;
+        width: 100px;
+        margin: auto;
+    }
+    
+    .carousel{
+        padding-bottom: 10px;
+        outline: none !important;
+        overflow: hidden;
+    }
+        
+    .card {
+        height: 100px;
+        background: red;
+        border: none;
+    }
+
+    .top-buss-item {
+        color: #000;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+        display: block;
+        margin: 10px;
+        border-radius: 5pt;
+        padding: 15px;
+        height: inherit;
+        text-align: right;
+        
+        .card-detail-txt{}
+        .card-detail-img {
+            
+            width: 100px;
+            padding-left: 0px;
+            padding-right: 0px;
+            border: 1px solid gainsboro;
+            padding: 10px;
+            border-radius: 5pt;
+        }
+
+        .card-title {
+            margin-top: 30px;
+        }
+
+        .card-body {
+            padding: 5px;
+        }
+
+        .rating-avr {
+            color: rgb(79, 194, 56)
+        }
+
+        .card-img-top-Buss {
+            border-radius: 5pt;
+        }
+
+        .card-detail-top-Buss {
+            margin-top: 10px;
+        }
+
+        .rating-people-count {
+            direction: rtl;
+            margin-left: 8px;
+        }
+
+        .business-title {
+            font-size: 16pt;
+            white-space: nowrap;    
+            overflow: hidden;
+            text-overflow: ellipsis;
+            direction: rtl;
+        }
+
+        .business-tags {
+            white-space: nowrap;
+            font-weight: 100;
+            padding: 5px 0;
+        }
+
+        .business-details{
+            .address{
+                font-size: 12pt;
+                color: e=rgb(110, 110, 110);
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+            }
+
+            .rating-people-count{
+                font-weight: 100;
+                font-size: 11pt;
+                color: rgb(150, 150, 150);
+            }
+        }
+
+    }
+
+    .star-svg {
+        width: 16px !important;
+        display: inline-block;
+        margin: 0 7px;
+    }
+
+
+    p {
+        margin-bottom: 0;
+    }
+
+  
+}

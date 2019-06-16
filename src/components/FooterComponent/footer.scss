@@ -1,0 +1,101 @@
+footer{
+    .footer-links {
+        border: 1px solid rgb(220, 220, 220);
+        border-right: unset;
+        border-left: unset;
+        height: 66pt;
+        padding: 21px;
+        background: rgb(245, 245, 245);
+        a {
+            color: rgb(50, 50, 57);
+            font-size: 14pt;
+            margin-left: 47px;
+            transition: .3s ;
+            &::before{
+                margin-left: 4px;
+                content: '';
+                width: 7px;
+                height: 7px;
+                background: rgb(255, 111, 97);
+                border-radius: 50%;
+                display: inline-block;
+            }
+
+            &:first-child{
+                margin-right: none;
+            }
+
+            &:hover {
+                color: rgb(255, 111, 97);
+            }
+        }
+
+        
+        .contact-unedd{
+            color: rgb(255, 111, 97);
+            font-size: 16pt;
+        }
+    }
+
+    .footer-download-box {
+        background: rgb(245, 245, 245);
+        .download-market{
+            height: 126pt;
+            .phone-img {
+                position: relative;
+                img {
+                    position: absolute;
+                    left: 102pt;
+                    bottom: 33pt;
+                }
+            }
+    
+            .download-box{
+                padding-top: 30px;
+            }
+    
+            .ios-info img, .android-info img {
+                width: 30px;
+                height: 30px;
+            }
+    
+            .ios-info .download-ios, .android-info .download-android {
+                font-size: 20pt;
+                color: rgb(110, 110, 110);
+            }
+
+            .android-info .download-android{
+                color: rgb(164 , 198 , 57)
+            }
+    
+            .ios-info .btn, .android-info .btn {
+                font-size: 13pt;
+                color: #fff;
+                display: inline-block;
+                width: 200px;
+                background: rgb(90 , 90, 97);
+                margin: 20px 8px;
+                border-radius: 48px;
+                border: 1px solid #fff;
+                img {
+                    width: 24px;
+                    height: 30px;
+                    margin-left: 9px;  
+                }
+
+                &:hover {
+                  background: rgb(255, 111, 97);
+                }
+            }
+    
+        }
+    }
+
+    .footer-copy-right {
+        background: rgb(50, 50, 57);
+        size: 12pt;
+        color: rgb(150, 150, 150);
+        text-align: center;
+        padding: 5px 0;
+    }
+}
